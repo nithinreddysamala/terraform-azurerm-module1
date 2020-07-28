@@ -5,6 +5,7 @@ variable "vnet_name" {
 
 variable "resource_group_name" {
   description = "The name of an existing resource group to be imported."
+  default = "rg100"
 }
 
 variable "address_space" {
